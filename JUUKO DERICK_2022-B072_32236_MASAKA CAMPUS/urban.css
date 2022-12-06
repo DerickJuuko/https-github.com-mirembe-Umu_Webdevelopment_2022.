@@ -1,0 +1,54 @@
+.title-div{
+    background: orangered;
+    padding: 0px;
+}
+
+.content-div{
+    background: dodgerblue;
+    padding: 100px;
+}
+
+.footer{
+    background: black;
+    padding: 10px;
+    margin-bottom: 0px;
+    color: white;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.navigation-bars{
+    background: black;
+    list-style: none;
+    text-align: center;
+    font-size: 22px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.navigation-bars li{
+    display: inline;
+    padding: 40px;
+
+}
+.navigation-bars li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navigation-bars li .active{
+    color: yellow;
+}
+
+.top-header{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.social-links .fa-brands{
+    color: orange;
+    height: 50px;
+    padding: 8px;
+}
